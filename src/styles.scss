@@ -1,1 +1,72 @@
 /* You can add global styles to this file, and also import other style files */
+
+@use '@angular/material' as mat;
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: "Inter", sans-serif; background: #EBEBEB; }
+
+.mat-header-row {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 1;
+}
+ .mat-mdc-table, .mat-mdc-paginator, .mat-elevation-z2 {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.mat-mdc-row .mat-mdc-cell, .mat-mdc-header-cell {
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+}
+
+.mat-mdc-header-cell {
+  border-bottom-color: transparent !important;
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+}
+
+.badge-success {
+  background: #ECFDF3;
+  color: #027A48;
+  border-radius: 16px;
+  padding: 2px 0px 2px 6px;
+  gap: 6px;
+}
+
+.badge-primary {
+  background: #F9F5FF;
+  color: #6941C6;
+  border-radius: 16px;
+  padding: 2px 6px 2px 6px;
+  margin-right: 6px;
+}
+
+.badge-secondary {
+  background: #EFF8FF;
+  color: #175CD3;
+  border-radius: 16px;
+  padding: 2px 6px 2px 6px;
+  margin-right: 6px;
+}
+
+.badge-tertiary {
+  background: #EEF4FF;
+  color: #3538CD;
+  border-radius: 16px;
+  padding: 2px 6px 2px 6px;
+  margin-right: 6px;
+}
+
+.apexcharts-datalabels-group .apexcharts-text.apexcharts-datalabel-value {
+  font-size: 20px !important;
+}
+
+.apexcharts-text .apexcharts-yaxis-title-text {
+  font-weight: 400 !important;
+}
