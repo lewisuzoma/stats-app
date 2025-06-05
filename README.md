@@ -87,8 +87,6 @@ The project's component architecture is organized to promote maintainability and
 * **`environments/`:** Contains configuration files for different environments (e.g., development, production), allowing you to manage API endpoints and other environment-specific settings.
 
 * **`shared/`:** This module contains reusable components that are not specific to a particular feature. These components can be used across different parts of the application.
-
-* **`core/`:** This folder provides essential services and utilities for the application:
     * `components/`: Defines components for data structures used throughout the application.
     * `services/`: Holds singleton services that manage application logic, data fetching, and state.
 
