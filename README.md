@@ -4,13 +4,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Angular Setup Instructions
 
-This README provides step-by-step instructions on how to set up and run this Ionic Angular project on your local machine.
+This README provides step-by-step instructions on how to set up and run this Angular project on your local machine.
 
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
 
-* **Node.js and npm (or yarn):** Ionic and Angular rely on Node.js for various development tasks. You can download and install the latest LTS version from [https://nodejs.org/](https://nodejs.org/). npm (Node Package Manager) comes bundled with Node.js. Alternatively, you can use yarn, which can be installed from [https://yarnpkg.com/](https://yarnpkg.com/).
+* **Node.js and npm (or yarn):** Angular rely on Node.js for various development tasks. You can download and install the latest LTS version from [https://nodejs.org/](https://nodejs.org/). npm (Node Package Manager) comes bundled with Node.js. Alternatively, you can use yarn, which can be installed from [https://yarnpkg.com/](https://yarnpkg.com/).
 
     To verify your installation, open your terminal or command prompt and run:
 
@@ -27,7 +27,7 @@ Before you begin, ensure you have the following installed:
     git --version
     ```
 
-* **Angular CLI (Command Line Interface):** Ionic Angular projects leverage the Angular CLI for managing Angular-specific tasks. It's usually installed automatically as a dependency of an Ionic project, but if you encounter issues, you can install it globally:
+* **Angular CLI (Command Line Interface):** Angular projects leverage the Angular CLI for managing Angular-specific tasks. It's usually installed automatically as a dependency of an project, but if you encounter issues, you can install it globally:
 
     ```bash
     npm install -g @angular/cli
@@ -47,7 +47,7 @@ Follow these steps to set up the project:
 
 1.  **Clone the repository (if you haven't already):**
 
-    If you have the project code in a Git repository (like the one you mentioned earlier: `https://github.com/lewisuzoma/ionic-search-page.git`), clone it to your local machine:
+    If you have the project code in a Git repository (like the one you mentioned earlier: `https://github.com/lewisuzoma/stats-app.git`), clone it to your local machine:
 
     ```bash
     git clone [https://github.com/lewisuzoma/stats-app.git](https://github.com/lewisuzoma/stats-app.git)
@@ -56,7 +56,7 @@ Follow these steps to set up the project:
 
 2.  **Install project dependencies:**
 
-    Navigate to the project directory in your terminal and install the necessary Node.js packages (including Ionic, Angular, and other dependencies) using npm or yarn:
+    Navigate to the project directory in your terminal and install the necessary Node.js packages (Angular, and other dependencies) using npm or yarn:
 
     ```bash
     npm install --force
@@ -68,7 +68,7 @@ Follow these steps to set up the project:
 
 ## Running the Application
 
-Once the dependencies are installed, you can run the Ionic Angular application using the Ionic CLI:
+Once the dependencies are installed, you can run the Angular application using the Angular CLI:
 
 1.  **Serve the application:**
 
@@ -90,7 +90,7 @@ The project's component architecture is organized to promote maintainability and
     * `components/`: Defines components for data structures used throughout the application.
     * `services/`: Holds singleton services that manage application logic, data fetching, and state.
 
-This structured approach helps in organizing the codebase, making it easier to understand, maintain, and scale the application. Feature-specific components and modules would typically reside in other top-level folders (not explicitly listed here but common in Angular/Ionic projects).
+This structured approach helps in organizing the codebase, making it easier to understand, maintain, and scale the application. Feature-specific components and modules would typically reside in other top-level folders (not explicitly listed here but common in Angular projects).
 
 ## Development
 
